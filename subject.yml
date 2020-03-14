@@ -1,4 +1,20 @@
 ---
 spring:
-  profiles: client
+  profiles: one
 words: I,You,He,She,It
+---
+spring:
+  profiles: two
+words: ran,knew,had,saw,bought
+---
+spring:
+  profiles: three
+words: a,the
+---
+spring:
+  profiles: four
+words: reasonable,leaky,suspicious,ordinary,unlikely
+---
+spring:
+  profiles: five
+words: boat,book,vote,seat,backpack,partition,groundhog
