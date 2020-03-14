@@ -4,5 +4,5 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-    metadataMap
+    metadataMap:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
