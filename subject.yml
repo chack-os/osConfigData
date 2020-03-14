@@ -1,5 +1,9 @@
 ---
 spring:
+  profiles: default
+words: hope
+---
+spring:
   profiles: one
 words: I,You,He,She,It
 ---
