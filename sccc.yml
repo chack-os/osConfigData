@@ -1,5 +1,5 @@
 ---
 spring:
   profiles: client
-sccc-config:  
+scccConfig:
   sccc: Hope
